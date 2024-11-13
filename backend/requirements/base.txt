@@ -1,0 +1,18 @@
+Django
+djangorestframework
+django-cors-headers
+django-environ
+channels
+channels-redis
+daphne
+redis
+tensorflow   # ou tensorflow-cpu pour une version plus légère
+torch        # ou cpu-only version: torch==2.2.0+cpu
+
+numpy
+pandas
+scipy
+scikit-learn
+gym
+python-dotenv
+psycopg2-binary

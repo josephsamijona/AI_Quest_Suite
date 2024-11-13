@@ -1,0 +1,58 @@
+# Environnement Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Environnement virtuel
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+# Configuration de l'IDE (Exemples : PyCharm, VSCode)
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Fichiers de log
+*.log
+
+# Clés de sécurité
+*.pem
+
+# Database locale (si SQLite est utilisée)
+*.sqlite3
+
+# Cache et fichiers temporaires
+*.temp
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.DS_Store
+Thumbs.db
+
+# Django migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Fichiers générés par Django
+
+
+# Configuration de Jupyter Notebook (si utilisé)
+.ipynb_checkpoints
+
+# Node modules (si frontend avec Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Fichiers sensibles
+.env
+*.env
+secrets.json

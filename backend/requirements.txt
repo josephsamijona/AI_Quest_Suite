@@ -1,0 +1,46 @@
+# Django et extensions
+Django
+djangorestframework
+django-cors-headers
+django-environ
+django-filter
+djangorestframework-simplejwt
+
+# Websockets
+channels
+channels-redis
+daphne
+redis
+
+# IA et Machine Learning
+tensorflow    # ou tensorflow-cpu pour une version plus légère
+torch         # ou cpu-only version: torch+cpu
+numpy
+pandas
+scipy
+scikit-learn
+gym           # Pour les environnements d'apprentissage par renforcement
+
+# Traitement de données et calcul
+matplotlib    # Pour générer des graphiques côté serveur si nécessaire
+plotly        # Alternative interactive à matplotlib
+tqdm          # Pour les barres de progression pendant l'entraînement
+
+# Utilitaires
+python-dotenv
+pyyaml
+psycopg2-binary  # Pour PostgreSQL
+gunicorn         # Pour le déploiement
+
+# Outils de développement
+black            # Formatage de code
+isort            # Tri des imports
+flake8           # Linting
+pytest           # Tests
+pytest-django    # Tests Django
+pytest-asyncio   # Tests async
+coverage         # Couverture de tests
+
+# Documentation
+Sphinx
+sphinx-rtd-theme
